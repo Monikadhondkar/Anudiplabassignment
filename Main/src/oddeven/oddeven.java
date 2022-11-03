@@ -11,7 +11,7 @@ public class oddeven{
                                      collect(Collectors.toList());
         System.out.println("Odd number are::"+oddNumbers);
         List<Integer> number = Arrays.
-                asList(1, 4, 8, 40, 11, 22, 33, 99);
+                asList(5,63,88,56,33,67,92, 99);
 List<Integer> evenNumbers = numbers.stream().
                       filter(o -> o % 2 == 0).
                        collect(Collectors.toList());
