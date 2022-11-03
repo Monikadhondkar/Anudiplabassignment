@@ -9,7 +9,7 @@ package shape;
  }
  class Circle extends Shape
  {
- 	void area( )
+ 	void getarea( )
  		{
  		double p = 3.14;
  		int r = 4;
@@ -20,7 +20,7 @@ package shape;
  }
  class Triangle extends Circle
  {
- 	void area1( )
+ 	void getarea( )
  	{
  		int h = 4;
  		int b = 6;
@@ -30,9 +30,11 @@ package shape;
  	}
  	public static void main(String[] args) 
  	{
+ 		Circle c=new Circle();
+ 		c.getarea();
  		Triangle t = new Triangle();
- 		t.area();
- 		t.area1();
+ 		t.getarea();
+ 		
  	}
  }
  		
